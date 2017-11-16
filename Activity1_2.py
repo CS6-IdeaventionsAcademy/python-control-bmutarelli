@@ -13,6 +13,7 @@ login_user = input ("Username: ")
 if login_user == login:
 
     password_user = input ("Password: ")
+
     if password_user == password:
         print ("Access Granted")
         time.sleep (3)
@@ -48,21 +49,21 @@ if login_user == login:
         
 
     else:
-            print("Access Denied")
-    time.sleep (0.5)
-    print ("System self destruct in:")
-    time.sleep (0.5)
-    print ("3")
-    time.sleep (1)
-    print ("2")
-    time.sleep (1)
-    print ("1")
-    time.sleep (1)
-    print ("Boom")
-    time.sleep (0.5)
-    print ("Bang")
-    time.sleep (0.5)
-    print ("You were blown into smithereens")
+        print(" Access Denied")
+        time.sleep (0.5)
+        print ("System self destruct in:")
+        time.sleep (0.5)
+        print ("3")
+        time.sleep (1)
+        print ("2")
+        time.sleep (1)
+        print ("1")
+        time.sleep (1)
+        print ("Boom")
+        time.sleep (0.5)
+        print ("Bang")
+        time.sleep (0.5)
+        print ("You were blown into smithereens")
 
 else:
     print("Access Denied")
