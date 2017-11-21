@@ -45,7 +45,7 @@ if login_user == login:
         time.sleep (1)
         print ("Rocket Launching")
         time.sleep (1)
-        print ("Rocket Lacunch Affirmitive")
+        print ("Rocket Launch Affirmitive")
         
 
     else:
