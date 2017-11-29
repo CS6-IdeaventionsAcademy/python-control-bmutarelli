@@ -1,3 +1,4 @@
+
 #Brogan Mutarelli
 #11/15/2017
 
@@ -47,6 +48,8 @@ if login_user == login:
         time.sleep (1)
         print ("Rocket Launch Affirmitive")
         
+        print ("yay")
+
 
     else:
         print(" Access Denied")
@@ -64,6 +67,8 @@ if login_user == login:
         print ("Bang")
         time.sleep (0.5)
         print ("You were blown into smithereens")
+        else:
+            print ("no")
 
 else:
     print("Access Denied")
@@ -81,4 +86,5 @@ else:
     print ("Bang")
     time.sleep (0.5)
     print ("You were blown into smithereens")
-
+    print("no")
+    
