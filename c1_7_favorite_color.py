@@ -8,7 +8,8 @@ yes = "yes"
 color = "blue"
 
 user_color = input ("What is your favorite color?  ")
-
+# RCH: Your program should loop over and over if the user_color is not equal to your color
+# This will only ask once. Please fix.  
 while user_color == color:
 
     print ("Me too! What a coincidence!")
