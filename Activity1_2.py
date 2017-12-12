@@ -67,8 +67,7 @@ if login_user == login:
         print ("Bang")
         time.sleep (0.5)
         print ("You were blown into smithereens")
-        else:
-            print ("no")
+        
 
 else:
     print("Access Denied")
